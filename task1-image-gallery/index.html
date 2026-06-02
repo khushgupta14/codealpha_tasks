@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Photo Gallery</h1>
+        
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="city">City</button>
+            <button class="filter-btn" data-filter="animals">Animals</button>
+        </div>
+
+        <div class="gallery-grid" id="gallery">
+            </div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close-btn" id="close">&times;</span>
+        <button class="nav-btn prev-btn" id="prev">&#10094;</button>
+        
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Full size image">
+            <p id="lightbox-caption"></p>
+        </div>
+        
+        <button class="nav-btn next-btn" id="next">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
