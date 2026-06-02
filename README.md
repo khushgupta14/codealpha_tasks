@@ -77,7 +77,7 @@ A custom music player with playlist and audio controls.
 - Clickable playlist with active song highlight
 - Auto-advance to next song on completion
 
-**Tech:** HTML, CSS, Vanilla JavaScript, Web Audio API
+**Tech:** HTML, CSS, Vanilla JavaScript
 
 ---
 
@@ -85,16 +85,15 @@ A custom music player with playlist and audio controls.
 
 | Technology | Usage |
 |---|---|
-| HTML5 | Structure and markup |
+| HTML5 | Structure, markup, and native audio elements |
 | CSS3 | Styling, Flexbox, Grid, Animations |
 | JavaScript ES6+ | Logic, DOM manipulation, Events |
-| Web Audio API | Music player audio controls |
 | CSS Grid auto-fill | Responsive gallery without media queries |
 
 ## 🚀 How to Run
 1. Clone the repo:
 ```bash
-   git clone https://github.com/khushgupta14/codealpha_tasks.git
+git clone https://github.com/khushgupta14/codealpha_tasks.git
 ```
 2. Open any task folder
 3. Open `index.html` in your browser — no setup needed!
