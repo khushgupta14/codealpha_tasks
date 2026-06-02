@@ -28,6 +28,8 @@ codealpha_tasks/
 │   ├── song2.mp3        # Sample audio file 2
 │   └── song3.mp3        # Sample audio file 3
 │
+├── .gitignore           # Ignores OS files, editor folders
+├── LICENSE              # MIT License
 └── README.md            # Project documentation
 ```
 
@@ -96,14 +98,6 @@ A custom music player with playlist and audio controls.
 ```
 2. Open any task folder
 3. Open `index.html` in your browser — no setup needed!
-
-## 🌐 Live Demo
-
-| Project | Live Link |
-|---|---|
-| Task 1 — Image Gallery | [View Live](#) |
-| Task 2 — Calculator | [View Live](#) |
-| Task 4 — Music Player | [View Live](#) |
 
 ## 👤 Author
 **Khush Gupta**
