@@ -130,3 +130,15 @@ h1 {
     .next-btn { right: 10px; }
     .close-btn { right: 20px; top: 10px; }
 }
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.footer strong {
+    color: #333;
+}
